@@ -1,0 +1,20 @@
+h1{
+    border-style: solid;
+    border-width: 12px;
+    border-color: rgb(219, 12, 12);
+
+/* shorthand syntax
+    border: 12px solid rgb(219, 12, 12);
+    BORDER WIDTH, BORDER STYLE, BORDER COLOR
+*/
+    border-radius: 6px;
+}
+
+p{
+    border-top: 6px dotted rgb(167, 13, 195);
+    border-bottom: 6px dotted rgb(167, 13, 195);
+    border-left: 6px dotted rgb(167, 13, 195);
+    border-right: 6px dotted rgb(167, 13, 195);
+
+    border-radius: 6px;
+}

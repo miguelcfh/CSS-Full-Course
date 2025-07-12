@@ -1,0 +1,52 @@
+/*
+justify-content = X axis
+space-between, space-around, space-evenly, flex-start, flex-end, center
+
+align-items = y axis
+self-start, self-end, center, stretch, baseline
+
+flex-direction = row, column, row-reverse, column-reverse
+
+flex-wrap = nowrap, wrap, wrap-reverse
+
+align-content = space-between, space-around, space-evenly, flex-start, flex-end, center
+
+align-self = self-start, self-end, center, stretch, baseline
+*/
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    border: 10px solid black;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+    font-size: 8em;
+    text-align: center;
+}
+
+#box1{
+    background-color: hsl(0, 80%, 50%);
+}
+
+#box2{
+    background-color: hsl(114, 80%, 50%);
+}
+
+#box3{
+    background-color: hsl(264, 80%, 50%);
+}
+
+#box4{
+    background-color: hsl(38, 80%, 50%);
+}

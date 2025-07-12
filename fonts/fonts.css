@@ -1,0 +1,17 @@
+/*Definindo uma fonte personalizada
+
+@font-face {
+    url(pasta/arquivo.ttf);
+    font-family: nome_que_voce_quiser;
+}
+*/
+
+h1{
+    font-family: Verdana, Arial;
+}
+p{
+    font-family: Lucida console, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}

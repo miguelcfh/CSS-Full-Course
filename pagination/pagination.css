@@ -1,0 +1,26 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(189, 189, 189);
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 2px;
+    padding: 6px 10px;
+    color: black;
+    display: inline-block;
+    width: 20px;
+}
+
+.pagination a:hover{
+    background-color: hsl(0, 0%, 44%);
+}
+
+.pagination a.active {
+    background-color: hsl(118, 65%, 51%);
+    font-weight: bold;
+    border-radius: 2px;
+}

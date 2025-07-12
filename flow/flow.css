@@ -1,0 +1,16 @@
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+
+#witcher-image{
+    width: 200px;
+    margin-right: 12px;
+    float: left;
+}
+
+#witcher2{
+    width: 200px;
+    margin-left: 12px;
+    float: right;
+}

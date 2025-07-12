@@ -1,0 +1,35 @@
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    border: 0px solid hsl(0, 8%, 75%);
+    border-radius: 2px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 54%);
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color:rgb(234, 234, 234);
+    min-width: 100px;
+    box-shadow: 2px 2px 6px hsl(0, 0%, 0%);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content a:hover {
+    background-color: hsl(0, 0%, 54%);
+}

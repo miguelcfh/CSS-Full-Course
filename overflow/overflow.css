@@ -1,0 +1,6 @@
+div{
+    border: 5px solid black;
+    height: 50px;
+    overflow: auto;
+    /* VISIBLE, HIDDEN, CLIP, SCROLL, AUTO */
+}

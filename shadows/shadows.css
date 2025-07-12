@@ -1,0 +1,11 @@
+h1{
+    text-shadow: 2px 5px 3px rgb(171, 38, 38), -2px -5px 3px rgb(38, 158, 171);
+    /* HORIZONTAL OFFSET, VERTICAL OFFSET, BLUR, COLOR */
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 154, 201);
+    box-shadow: 3px 5px 3px rgb(0, 0, 0);
+}

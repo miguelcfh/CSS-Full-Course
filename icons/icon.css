@@ -1,0 +1,24 @@
+.icons{
+    text-align: center;
+}
+
+.fa-brands.fa-youtube{
+    color: hsl(0, 96%, 44%);
+}
+
+.fa-brands.fa-youtube:hover{
+    color: hsl(0, 96%, 54%);
+}
+
+.fa-brands.fa-github{
+    color: hsl(0, 1%, 14%);
+}
+
+.fa-brands.fa-github:hover{
+    color: hsl(0, 1%, 24%);
+}
+
+.icons a {
+    text-decoration: none;
+    margin: 5px;
+}

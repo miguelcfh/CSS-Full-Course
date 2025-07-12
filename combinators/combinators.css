@@ -1,0 +1,13 @@
+/*
+" " = descendant
+">" = child
+"~" = general sibling
+"+" = adjacent sibling
+*/
+#container{
+    border: 2px solid purple;
+}
+
+#container > p{
+    background-color: rgb(105, 105, 255);
+}

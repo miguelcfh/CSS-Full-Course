@@ -1,0 +1,25 @@
+/*
+MARGIN->BORDER->PADDING->CONTENT
+*/
+
+body{
+    margin: 0px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 4px dotted hsl(332, 75%, 42%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+#box1{
+    background-color: hsl(0, 91%, 49%);
+    margin: auto;
+}
+
+#box2{
+    background-color: hsl(244, 91%, 49%);
+    margin-left: auto;
+}

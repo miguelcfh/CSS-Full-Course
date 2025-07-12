@@ -1,0 +1,16 @@
+/*
+DISPLAY INLINE, DISPLAY BLOCK, DISPLAY INLINE-BLOCK, DISPLAY NONE
+*/
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 6, 6);
+    display: inline;
+}
+
+span{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 42, 223);
+    display: inline-block;
+}
